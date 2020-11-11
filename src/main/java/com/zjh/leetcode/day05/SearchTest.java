@@ -44,7 +44,7 @@ public class SearchTest {
     public static void main(String[] args) {
         /*    int [] arr = {4,5,6,7,0,1,2};
             int target = 0;*/
-            int [] arr = {5,1,3};
+            int [] arr = {3,1};
             int target = 3;
         System.out.println(search(arr, target));
     }
