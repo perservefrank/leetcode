@@ -20,10 +20,6 @@ package com.zjh.interview.linux;
  * top 查看服务器cpu使用情况
  *
  *
- *
- *
- *
- *
  * nginx 常用命令
  * nginx -t ：测试配置文件是否有语法错误
  * nginx -s reload：重新加载Nginx配置文件，然后以优雅的方式重启Nginx
@@ -31,6 +27,12 @@ package com.zjh.interview.linux;
  * nginx -s quit：优雅地停止Nginx服务（即处理完所有请求后再停止服务）
  *
  *
+ * java jvm常用命令
+ * jps -l 查询java应用的进程号
+ * jinfo -flags <进程号> 查询当前运行jvm属性和参数值
+ * jstat [option] <进程号> [interval] [count] 用于监视虚拟机运行时状态信息的命令，它可以显示出虚拟机进程中的类装载、内存、垃圾收集、JIT编译等运行数据。
+ *          option: gc 垃圾回收堆的行为统计
+ *                  gcutil 垃圾回收统计概述。
  * @author: jinheng.zhao
  * @create: 2020-11-12
  **/
