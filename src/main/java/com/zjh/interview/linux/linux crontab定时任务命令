@@ -1,0 +1,20 @@
+什么是定时任务
+定时任务命令是cond，crond就是计划任务，类似于我们平时生活中的闹钟，定点执行。
+
+crontab命令选项
+-e                      #编辑定时任务
+-l                      #查看定时任务
+-r                      #删除定时任务
+-u                      #指定其他用户
+
+删除crontab内容里的test2.sh的任务
+
+其实该处是使用sed命令来处理/var/spool/cron/root 文件，将含test2.sh的行的内容删除掉。
+
+ sed -i '/test2.sh/d' /var/spool/cron/root
+
+
+
+ linux清空文件的命名：
+ 使用cat命令情况，命令如下：
+ cat /dev/null > file_name
