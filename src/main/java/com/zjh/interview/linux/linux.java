@@ -28,7 +28,7 @@ package com.zjh.interview.linux;
  *
  *
  * java jvm常用命令
- * jps -l 查询java应用的进程号
+ * jps -l 查询java应用的进程号  （只能查看当前linux用户下的java应用进程）
  * jinfo -flags <进程号> 查询当前运行jvm属性和参数值
  * jstat [option] <进程号> [interval] [count] 用于监视虚拟机运行时状态信息的命令，它可以显示出虚拟机进程中的类装载、内存、垃圾收集、JIT编译等运行数据。
  *          option: gc 垃圾回收堆的行为统计
