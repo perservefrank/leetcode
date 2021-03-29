@@ -12,13 +12,13 @@ import java.util.Stack;
  **/
 public class PizzTest {
     public static void main(String[] args) throws IOException {
-        Piazz piazz = new NyPizza.Builder(NyPizza.Size.LARGE).addTopping(Piazz.Topping.MUSHROOM).build();
+/*        Piazz piazz = new NyPizza.Builder(NyPizza.Size.LARGE).addTopping(Piazz.Topping.MUSHROOM).build();
         System.out.printf(piazz.toString());
         Stack<Object> objects = new Stack<>();
         objects.push("aaa");
         System.out.println(objects.pop());
 
         Person person = new Person();
-        System.out.println(person.equals(new Person()));
+        System.out.println(person.equals(new Person()));*/
     }
 }

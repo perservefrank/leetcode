@@ -9,10 +9,10 @@ import java.util.List;
  **/
 public class MyHashSetTest {
     public static void main(String[] args) {
-        MyHashSet myHashSet = new MyHashSet();
+/*        MyHashSet myHashSet = new MyHashSet();
         myHashSet.addAll(Arrays.asList("a","b","c","d"));
         System.out.println(myHashSet.getAddCount());
-        List[] lists = new List[10];
+        List[] lists = new List[10];*/
 
     }
 }

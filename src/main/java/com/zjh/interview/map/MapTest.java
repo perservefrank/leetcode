@@ -2,6 +2,7 @@ package com.zjh.interview.map;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
  * @author: jinheng.zhao
@@ -21,5 +22,8 @@ public class MapTest {
         System.out.println(a%b);
 
         System.out.println(a&(b-1));*/
+
+        CopyOnWriteArrayList<Object> objects = new CopyOnWriteArrayList<>();
+        objects.add(1);
     }
 }

@@ -6,6 +6,7 @@ import java.util.Objects;
  * @author: jinheng.zhao
  * @create: 2020-11-17
  **/
+/*
 public class NyPizza extends Piazz {
     public enum Size{SMALL,MEDIUM,LARGE};
     private final Size size;
@@ -34,3 +35,4 @@ public class NyPizza extends Piazz {
         size= builder.size;
     }
 }
+*/
